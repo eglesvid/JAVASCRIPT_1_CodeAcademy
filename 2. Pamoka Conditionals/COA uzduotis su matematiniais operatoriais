@@ -1,0 +1,51 @@
+Apačioje pateiktas sąrašas lygčių - pasiimkite popieriaus lapą ir atsakykite,
+kokią reikšmę čia matys kompiuteris - ar true, ar false? Vėliau, pasitikrinkite
+atsakymą su JavaScript. 2 === 2 true
+<br />
+2 == "2" true
+<br />
+2 !== 2 false
+<br />
+5 < 5 false
+<br />
+5 >= 4 true
+<br />
+true !== false true
+<br />
+9 - 5 === 4 true
+<br />
+5 * 5 !== "25" true
+<br />
+true && true true
+<br />
+2 === 5 && true false
+<br />
+6 * 6 === 36 && 15 - 9 == "6" true
+<br />
+false || false false
+<br />
+10 === 10 || 5 == 2 true
+<br />
+2 * 2 / 2 == "1" || 5 * 5 === 25 true
+<br />
+14 * 2 !== "28" || "Jonas" == "Jonas" true
+<br />
+10 && 15 > 10 true
+<br />
+"Petras" && 0 false
+<br />
+("Petras" || "Jonas") && (22 * 5 || 15 - 1 === 13) true
+<br />
+"jonas" === "Jonas" false
+<br />
+"Petras" + 5 === "Petras" + "5" true
+<br />
+"Jonas" + 5 + 5 === "Jonas10" false
+<br />
+5 + 10 + "Antanas" === "15Antanas" true
+<br />
+2 + 1 + "Jonas" + 3 + 2 === "3Jonas5" false (pirmas dalis gaunasi 3Jonas32)
+<br />
+10 % 1 === 1 false
+<br />
+5 * "5" === 25 true
